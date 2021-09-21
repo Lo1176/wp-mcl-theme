@@ -1,0 +1,35 @@
+.DS_Store
+logs/
+wp-content/backups-dup-lite/
+wp-content/backups-dup-lite/*
+
+# ignore .htaccess files (starting with ...*)
+# /.htaccess*
+.htaccess*
+
+# ignore .htpasswd files
+.htpasswd*
+
+# ignore log files and databases (ending with *...)
+*.log
+*.sql
+*.sqlite
+
+#ignore images
+wp-content/uploads/
+
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+DNU*
+wp-content_DNU*
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
