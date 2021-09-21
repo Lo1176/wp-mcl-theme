@@ -2,5 +2,4 @@
 
 hello les gens
 
-
 <?php get_footer() ?>
